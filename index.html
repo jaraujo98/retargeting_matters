@@ -18,6 +18,7 @@
   <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
   <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="stylesheet" href="./static/css/related_work.css">
 
   <link rel="apple-touch-icon" sizes="57x57"
     href="//www-media.stanford.edu/assets/favicon/apple-touch-icon-57x57.png" />
@@ -90,7 +91,7 @@
             <div class="publication-links">
               <!-- PDF Link. -->
               <span class="link-block">
-                <a href=""
+                <a href="http://arxiv.org/abs/2510.02252"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fas fa-file-pdf"></i>
@@ -99,7 +100,7 @@
                 </a>
               </span>
               <span class="link-block">
-                <a href=""
+                <a href="http://arxiv.org/abs/2510.02252"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="ai ai-arxiv"></i>
@@ -135,22 +136,6 @@
     </div>
   </div>
 </section>
-
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section> -->
 
 
 <section class="section">
@@ -299,12 +284,39 @@
     <!-- Related Work. -->
     <div class="columns is-centered">
       <div class="column is-full-width">
-        <h2 class="title is-3">See Also</h2>
+        <h2 class="title is-3">Related Work</h2>
 
-        <div class="content has-text-justified">
-          <p>
-            <a href="https://yanjieze.com/TWIST/">TWIST: Teleoperated Whole-Body Imitation System</a> is a method to teleoperate humanoid robots using full-body motion capture that uses GMR for real time retargeting.
-          </p>
+        <div class="related-paper">
+            <div class="related-paper-video">
+                <video src="https://visualmimic.github.io/videos/twist.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="related-paper-content">
+                <div class="related-paper-title">
+                    <a href="https://yanjieze.com/TWIST/" target="_blank">TWIST: Teleoperated Whole-Body Imitation System</a>
+                </div>
+                <div class="related-paper-authors">Yanjie Ze<sup>*</sup>, Zixuan Chen<sup>*</sup>, João Pedro Araújo<sup>*</sup>, Zi-ang Cao, Xue Bin Peng, Jiajun Wu<sup>†</sup>, C. Karen Liu<sup>†</sup></div>
+                <div class="related-paper-authors"><b>CoRL 2025</b></div>
+                <div class="related-paper-links">
+                    <a href="https://arxiv.org/abs/2505.02833" target="_blank">arXiv</a> /
+                    <a href="https://yanjieze.com/TWIST/" target="_blank">Project Page</a> /
+                    <a href="https://github.com/YanjieZe/TWIST" target="_blank">Code</a>
+                </div>
+            </div>
+        </div>
+        <div class="related-paper">
+            <div class="related-paper-video">
+                <video src="https://visualmimic.github.io/videos/real/push_box.mp4" autoplay muted loop playsinline></video>
+            </div>
+            <div class="related-paper-content">
+                <div class="related-paper-title">
+                    <a href="https://visualmimic.github.io/" target="_blank">VisualMimic: Visual Humanoid Loco-Manipulation via Motion Tracking and Generation</a>
+                </div>
+                <div class="related-paper-authors">Shaofeng Yin<sup>*</sup>, Yanjie Ze<sup>*</sup>, Hong-Xing Yu, C. Karen Liu<sup>†</sup>, Jiajun Wu<sup>†</sup></div>
+                <div class="related-paper-links">
+                    <a href="https://arxiv.org/abs/2509.20322" target="_blank">arXiv</a> /
+                    <a href="https://visualmimic.github.io/" target="_blank">Project Page</a>
+                </div>
+            </div>
         </div>
       </div>
     </div>
@@ -318,7 +330,12 @@
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>
-      Coming soon...
+@article{araujo2025gmr,
+  title={Retargeting Matters: General Motion Retargeting for Humanoid Motion Tracking},
+  author= {Joao Pedro Araujo and Yanjie Ze and Pei Xu and Jiajun Wu and C. Karen Liu},
+  year= {2025},
+  journal= {arXiv preprint arXiv:2510.02252}
+}
     </code></pre>
   </div>
 </section>
